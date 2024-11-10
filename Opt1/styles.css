@@ -1,0 +1,217 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: grey;
+    background-image: ;
+    background-color: #f7f7f7;
+    line-height: 1.6;
+}
+
+:focus {
+    outline: 3px solid pink;
+    outline-offset: 3px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: 50px;
+}
+
+h2 {
+    font-size: 2rem;  
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.nav-links a {
+    margin-left: 1.5rem;
+    color: grey;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: pink;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 1rem;
+    background: url('img/keyboard.jpg') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.btn {
+    padding: 0.7rem 1.5rem;
+    background-color: pink;
+    color: grey;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 1.5rem;
+}
+
+.btn:hover {
+    background-color: pink;
+}
+
+/* About */
+.about {
+    text-align: center;
+    padding: 30px 5px;
+    background-color: #fff;
+    
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    max-width: 1000px;
+    margin-left: 4rem;
+}
+
+.about h2 {
+    margin-bottom: 0;
+}
+
+.about-content img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
+    border-radius: 30px;
+    border: 10px solid pink;
+}
+
+/* Skills Section */
+.skills {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: grey;
+    color: #f7f7f7;
+}
+
+.skills h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.skill {
+    padding: 0.8rem 1.5rem;
+    background-color: pink;
+    color: grey;
+    border-radius: 50px;
+}
+
+/* Portfolio Section */
+.portfolio {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.portfolio h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.portfolio-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.portfolio-item {
+    width: 250px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    display: inline-block
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 
+        transform 750ms cubic-bezier(.5, 0, .5, 1),
+        opacity 250ms linear;
+}
+
+.portfolio-item:focus {
+    position: relative;
+    z-index: 2;
+}
+
+.portfolio img:hover,
+.portfolio item:focus .portfolio img {
+    transform: scale(1.2);
+    opacity: .5;
+    
+/* Contact Section */
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    max-width: 1000px;
+    margin-left: 4rem;
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: grey;
+}
+
+.contact-info div {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    background-color: gray;
+    color: #fff;
+}
