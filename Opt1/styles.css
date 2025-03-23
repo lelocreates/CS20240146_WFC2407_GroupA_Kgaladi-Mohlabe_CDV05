@@ -99,7 +99,8 @@ h2 {
     justify-content: center;
     margin-top: 0;
     max-width: 1000px;
-    margin-left: 4rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
 }
 
 .about h2 {
@@ -187,23 +188,27 @@ h2 {
 .portfolio item:focus .portfolio img {
     transform: scale(1.2);
     opacity: .5;
-    
+}  
 /* Contact Section */
-.contact {
+.contacts { 
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: grey;
+    color: #f7f7f7;
+}
+
+
+.contact-info div {
+    color: pink;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 0;
-    max-width: 1000px;
-    margin-left: 4rem;
-    padding: 4rem 2rem;
+    margin-bottom: 0;
+    max-width: 100%;
     text-align: center;
     background-color: grey;
 }
 
-.contact-info div {
-    margin-bottom: 0.5rem;
-}
 
 /* Footer */
 footer {
@@ -214,4 +219,6 @@ footer {
     text-align: center;
     background-color: gray;
     color: #fff;
+    margin-top: 0;
 }
+
